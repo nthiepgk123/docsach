@@ -1,0 +1,7 @@
+<li class="list-group-item">
+        <ul class="list-group" *ngFor="let cate of arrCate">
+            <li class="list-group-item">
+              <a routerLink="detail/{{cate._id}}">{{cate.name}}</a>
+            </li>
+          </ul>
+    </li>
